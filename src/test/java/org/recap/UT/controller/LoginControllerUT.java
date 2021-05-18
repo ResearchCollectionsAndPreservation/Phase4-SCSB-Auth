@@ -17,6 +17,7 @@ import org.mockito.MockitoAnnotations;
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
+import org.recap.PropertyKeyConstants;
 import org.recap.ScsbConstants;
 import org.recap.UT.BaseTestCaseUT;
 import org.recap.controller.LoginController;
