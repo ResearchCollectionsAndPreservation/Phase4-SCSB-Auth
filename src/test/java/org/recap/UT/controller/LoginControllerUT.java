@@ -92,7 +92,8 @@ public class LoginControllerUT extends BaseTestCaseUT {
     @Mock
     UserManagementService userManagementService;
 
-    @Value("${scsb.support.institution}")
+
+    @Value("${" + PropertyKeyConstants.SCSB_SUPPORT_INSTITUITON + "}")
     private String supportInstitution;
 
     UsernamePasswordToken usernamePasswordToken = null;
